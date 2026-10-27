@@ -7,7 +7,7 @@ export const siteConfig = {
   shortName: "EthioInfra",
   tagline: "From Datacenter Racks to Distributed Systems — Master the Full Infrastructure Stack",
   description:
-    "In-depth courses and weekly technical deep-dives across six tracks: Enterprise Datacenter, AI Datacenter & Compute, Cloud & DevOps, Platform and Security Engineering, Backend Engineering, and System Design & Scale.",
+    "In-depth courses and weekly technical deep-dives across five tracks: Enterprise Datacenter, AI Datacenter & Compute, Cloud & DevOps, Platform and Security Engineering, and System Design & Scale.",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
 
   // Main Navigation Routes
@@ -18,7 +18,7 @@ export const siteConfig = {
     { title: "Contact", href: "/contact" },
   ] as const satisfies readonly NavItem[],
 
-  // Core Learning Tracks (6 Track Architecture) — each is served at /courses/[slug]
+  // Core Learning Tracks (5 Track Architecture) — each is served at /courses/[slug]
   // and owns its articles (planned: /courses/[slug]/[postSlug]); there is no global posts section.
   tracks: [
     {
@@ -44,12 +44,6 @@ export const siteConfig = {
       slug: "platform-security",
       description: "Zero Trust architecture, IAM policy design, secrets management, hardware security modules (HSM), and compliance.",
       icon: "ShieldCheck",
-    },
-    {
-      title: "Backend Engineering",
-      slug: "backend-engineering",
-      description: "High-performance Go systems, concurrency models, memory management, and database query optimization.",
-      icon: "Code",
     },
     {
       title: "System Design & Scale",

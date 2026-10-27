@@ -49,7 +49,7 @@ export default function AboutPage() {
           ))}
         </div>
 
-        <h2 className="mt-16 text-2xl font-bold tracking-tight">The six tracks</h2>
+        <h2 className="mt-16 text-2xl font-bold tracking-tight">The five tracks</h2>
         <ul className="mt-6 grid gap-3 sm:grid-cols-2">
           {siteConfig.tracks.map((t) => (
             <li key={t.slug}>

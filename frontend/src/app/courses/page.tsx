@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Courses & Training",
-  description: "Explore the six learning tracks: datacenter, AI compute, cloud, security, backend, and system design.",
+  description: "Explore the five learning tracks: datacenter, AI compute, cloud, security, and system design.",
 };
 
 export default function CoursesPage() {

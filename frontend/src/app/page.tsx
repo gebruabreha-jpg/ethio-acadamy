@@ -24,7 +24,7 @@ export default function HomePage() {
 
       <section className="border-t border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900/40">
         <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Six learning tracks</h2>
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">Five learning tracks</h2>
           <p className="mt-3 max-w-2xl text-zinc-600 dark:text-zinc-400">
             From the rack to the request path — pick a track and go deep.
           </p>
